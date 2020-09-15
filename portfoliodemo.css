@@ -1,0 +1,35 @@
+.brand{
+    background-color: lightblue;
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar a{
+    padding-right: 0.5rem;
+    padding-top: 2rem;
+} 
+
+.navbar{
+    position: absolute;
+    display: inline;
+    left: 58rem;
+    top: 5rem;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.pic{
+    float: left;
+    width: 20.25%;
+    padding: 5px;
+}
+
+.card{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: black 0.2rem solid;
+}
+

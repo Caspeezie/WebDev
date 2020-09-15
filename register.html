@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+    <div>      
+        <form class="my-form" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Name: </label>
+                <input type="text" name="name">
+            </div><br>
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text" name="email">
+            </div><br>
+            <div class="form-group">
+                <label>Message: </label>
+                <textarea name="message"></textarea>
+            </div><br>
+            <input class="button" type="submit" value="Submit" name="">                 
+        
+            <div><h3>State of Origin</h3></div>
+            <select>
+                <optgroup label="North Central">
+                    <option>Benue</option>
+                    <option>Kogi</option>
+                    <option>Kwara</option>
+                    <option>Nassarawa</option>
+                    <option>Niger</option>
+                    <option>Plateau</option>
+                    <option>Federal Capital Territory</option>
+                </optgroup>
+                <optgroup label="North East">
+                    <option>Adamawa</option>
+                    <option>Bauchi</option>
+                    <option>Borno</option>
+                    <option>Gombe</option>
+                    <option>Taraba</option>
+                    <option>Yobe</option>
+                </optgroup>
+                <optgroup label="North West">
+                    <option>Jigawa</option>
+                    <option>Kaduna</option>
+                    <option>Kano</option>
+                    <option>Katsina</option>
+                    <option>Kebbi</option>
+                    <option>Sokoto</option>
+                    <option>Zamfara</option>
+                </optgroup>
+                <optgroup label="South East">
+                    <option>Abia</option>
+                    <option>Anambra</option>
+                    <option>Ebonyi</option>
+                    <option>Enugu</option>
+                    <option>Imo</option>
+                </optgroup>
+                <optgroup label="South South">
+                    <option>Akwa Ibom</option>
+                    <option>Bayelsa</option>
+                    <option>Cross River</option>
+                    <option>Rivers</option>
+                    <option>Delta</option>
+                    <option>Edo</option>
+                </optgroup>
+                <optgroup label="South West">
+                    <option>Ekiti</option>
+                    <option>Lagos</option>
+                    <option>Ogun</option>
+                    <option>Ondo</option>
+                    <option>Osun</option>
+                    <option>Oyo</option>
+                </optgroup>
+            </select>
+            <button>Submit</button>
+
+            <input class="button" type="password" placeholder="Type password here"><br>
+
+            <a>Gender</a><br>
+            <input type="radio" name="Gender" value="1" checked>Male<br>
+            <input type="radio" name="Gender" value="2">Female
+
+            <label>Upload a photo</label>
+            <input type="file" name="photo"/>
+        
+
+            <label>Rate this photo: <br/>
+            <input type="number" min="1" max="5" name="rate" />
+            <br>
+
+            Grumpy
+            <input type="range" min="0" max="10" step="1" name="happiness" />
+            Estatic
+
+            <label>Date: <br/>
+            <input type="date" />
+            <input type="time"/>
+            <br>
+        </form>
+    </div><br>
+    <!--<input type="datetime-local"/>
+    <input type="month"/>
+    <input type="week"/>-->
+    <div class="container-fluid">
+        <form class="btfrm">
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form><br>
+        <form class="form-inline">
+            <div class="form-group mr-2">
+                <label class="sr-only" for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group mr-2">
+                <label class="sr-only" for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="form-group mr-2">        
+                <label><input type="checkbox" class="mr-1"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form><br>
+        <form>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="inputEmail" value="peterparker@example.com">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+            <br>
+            <div class="card" style="width: 300px;">
+                <img src="../Portfolio/images/Origin.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sadeeq Ahmad</h5>
+                    <p class="card-text">Sadiq is a freelance web designer and developer based in Lagos. He is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
+                    <a href="#" class="btn btn-primary">View Profile</a>
+                </div>
+           </div>
+           <div class="card" style="width: 300px;">
+            <img src="../Portfolio/images/GoT.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Dragon</h5>
+                <p class="card-text">I am an evil character in the cast of Game of Thrones.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+            </div>          
+        </form>
+    </div>
+
+</body>
+</html>
